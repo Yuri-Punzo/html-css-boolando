@@ -125,11 +125,27 @@ a {
 }
 
 .sales{
+    color: white;
+    font-size: 14px;
     background-color: #ff0000;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    padding: 2px 5px;
 }
 
 .sustainable{
+    color: white;
+    font-size: 14px;
     background-color: #008000;
+    height: 20px;
+    width: 100px;
+    position: absolute;
+    left: 44px;
+    bottom: 100px;
+    padding: 2px 5px;
 }
 
 .favourite{
@@ -141,7 +157,7 @@ a {
     top: 10px;
 }
 
-.fa-heart{
+.heart-size{
     font-size:24px;
     padding: 12px;
 }
