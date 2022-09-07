@@ -24,7 +24,7 @@
     flex-direction: row;
 }
 
-.flex-column {
+.flex_column {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -35,7 +35,35 @@
 }
 
 .col_6 {
-    width: calc((100% / 12)* 2);
+    width: calc((100% / 12)* 6);
+}
+
+.center {
+    text-align: center;
+}
+
+.bg_color_orange {
+    background-color: #ff6900;
+}
+
+.bg_color_white {
+    background-color: white;
+}
+
+.bg_color_black {
+    background-color: black;
+}
+
+.bg_color_red {
+    background-color: red;
+}
+
+.bg_color_green {
+    background-color: #008000;
+}
+
+.color-white {
+    color: white;
 }
 
 .debug {
@@ -43,3 +71,33 @@
 }
 
 /* #endregion Utility */
+
+header {
+    height: 70px;
+    /* VEDI SE SI PUO EVITARE QUESTA COSA DELL'ALTEZZA */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.body_type,
+.personal_area {
+    margin: 1.5rem 0;
+
+}
+
+.boolean_logo {
+    height: 20%;
+    margin: 1rem;
+}
+
+.personal_area {
+    text-align: right;
+}
+
+
+.card>img {
+    width: 100%;
+}
