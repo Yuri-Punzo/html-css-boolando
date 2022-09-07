@@ -42,7 +42,7 @@
     text-align: center;
 }
 
-.spacing{
+.spacing {
     margin: 12px 0 0 0;
 }
 
@@ -76,7 +76,7 @@
 
 /* #endregion Utility */
 
-body{
+body {
     font-family: 'Yantramanav', sans-serif;
 }
 
@@ -105,7 +105,7 @@ a {
     text-align: right;
 }
 
-.icons{
+.icons {
     margin-left: 10px;
 }
 
@@ -113,6 +113,27 @@ a {
     width: 100%;
 }
 
+.card {
+    margin: 2rem 0.5rem;
+}
+
+.brand,
+.cloth_description,
+.price,
+.original_price {
+    line-height: 14px;
+    font-size: 14px;
+}
+
+.price {
+    color: red;
+    font-weight: 700;
+}
+
+.original_price {
+    text-decoration: line-through;
+    color: black;
+}
 
 
 
@@ -135,21 +156,22 @@ a {
 
 
 
-.info{
+
+.info {
     margin: 0.5rem 0 1.5rem 0;
     font-size: 12px;
 }
 
-.info_links{
+.info_links {
     margin-right: 1rem;
 }
 
-.socials{
+.socials {
     margin-top: 1rem;
     text-align: right;
 }
 
-.fa-brands{
+.fa-brands {
     padding: 3px;
     margin: 0.5rem 0 1.5rem 0;
 }
