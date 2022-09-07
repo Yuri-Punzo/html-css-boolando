@@ -50,20 +50,8 @@
     background-color: #ff6900;
 }
 
-.bg_color_white {
-    background-color: white;
-}
-
 .bg_color_black {
     background-color: black;
-}
-
-.bg_color_red {
-    background-color: red;
-}
-
-.bg_color_green {
-    background-color: #008000;
 }
 
 .color-white {
@@ -135,6 +123,17 @@ a {
     color: black;
 }
 
+.sales{
+    background-color: #ff0000;
+}
+
+.sustainable{
+    background-color: #008000;
+}
+
+.favourite{
+    background-color: white;
+}
 
 
 
