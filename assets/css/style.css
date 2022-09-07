@@ -134,6 +134,7 @@ a {
     left: 0;
     bottom: 100px;
     padding: 2px 5px;
+    z-index: 98;
 }
 
 .sustainable{
@@ -146,6 +147,7 @@ a {
     left: 44px;
     bottom: 100px;
     padding: 2px 5px;
+    z-index: 99;
 }
 
 .favourite{
@@ -155,6 +157,7 @@ a {
     position: absolute;
     right: 0;
     top: 10px;
+    z-index: 100;
 }
 
 .heart{
@@ -166,12 +169,21 @@ a {
     color: red;
 }
 
+.first_version{
+    position:relative;
+    z-index: 50;
+}
 
+.alt_version{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 40;
+}
 
-
-
-
-
+.first_version:hover{
+    opacity: 0;
+}
 
 .info {
     margin: 0.5rem 0 1.5rem 0;
