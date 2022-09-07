@@ -72,6 +72,10 @@
 
 /* #endregion Utility */
 
+body{
+    font-family: 'Yantramanav', sans-serif;
+}
+
 header {
     height: 70px;
     /* VEDI SE SI PUO EVITARE QUESTA COSA DELL'ALTEZZA */
@@ -85,7 +89,7 @@ a {
 .body_type,
 .personal_area {
     margin: 1.5rem 0;
-
+    font-size: 16px;
 }
 
 .boolean_logo {
@@ -95,6 +99,10 @@ a {
 
 .personal_area {
     text-align: right;
+}
+
+.icons{
+    margin-left: 10px;
 }
 
 
