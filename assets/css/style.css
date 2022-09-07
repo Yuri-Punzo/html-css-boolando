@@ -144,8 +144,8 @@ a {
     height: 20px;
     width: 80px;
     position: absolute;
-    left: 44px;
-    bottom: 100px;
+    left: 0;
+    bottom: 78px;
     padding: 2px 5px;
     z-index: 99;
 }
